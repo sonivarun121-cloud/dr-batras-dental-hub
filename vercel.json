@@ -1,0 +1,285 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/braces-aligners",
+      "destination": "/braces",
+      "permanent": true
+    },
+    {
+      "source": "/braces-aligners.html",
+      "destination": "/braces",
+      "permanent": true
+    },
+    {
+      "source": "/braces-south-bopal",
+      "destination": "/braces",
+      "permanent": true
+    },
+    {
+      "source": "/braces-south-bopal.html",
+      "destination": "/braces",
+      "permanent": true
+    },
+    {
+      "source": "/crowns",
+      "destination": "/veneers-crowns",
+      "permanent": true
+    },
+    {
+      "source": "/crowns.html",
+      "destination": "/veneers-crowns",
+      "permanent": true
+    },
+    {
+      "source": "/dental-checkup",
+      "destination": "/dental-checkups",
+      "permanent": true
+    },
+    {
+      "source": "/dental-checkup-south-bopal",
+      "destination": "/dental-checkups",
+      "permanent": true
+    },
+    {
+      "source": "/dental-checkup-south-bopal.html",
+      "destination": "/dental-checkups",
+      "permanent": true
+    },
+    {
+      "source": "/dental-checkup.html",
+      "destination": "/dental-checkups",
+      "permanent": true
+    },
+    {
+      "source": "/dental-clinic-near-sp-ring-road",
+      "destination": "/dentist-in-shela",
+      "permanent": true
+    },
+    {
+      "source": "/dental-clinic-near-sp-ring-road.html",
+      "destination": "/dentist-in-shela",
+      "permanent": true
+    },
+    {
+      "source": "/dental-clinic-south-bopal",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dental-clinic-south-bopal.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dental-fillings",
+      "destination": "/fillings-sealants",
+      "permanent": true
+    },
+    {
+      "source": "/dental-fillings.html",
+      "destination": "/fillings-sealants",
+      "permanent": true
+    },
+    {
+      "source": "/dental-implants-south-bopal",
+      "destination": "/implants",
+      "permanent": true
+    },
+    {
+      "source": "/dental-implants-south-bopal.html",
+      "destination": "/implants",
+      "permanent": true
+    },
+    {
+      "source": "/dentist-near-me-ahmedabad",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dentist-near-me-ahmedabad.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-dentist-south-bopal",
+      "destination": "/emergency-care",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-dentist-south-bopal.html",
+      "destination": "/emergency-care",
+      "permanent": true
+    },
+    {
+      "source": "/fixed-dentures",
+      "destination": "/dentures-bridges",
+      "permanent": true
+    },
+    {
+      "source": "/fixed-dentures.html",
+      "destination": "/dentures-bridges",
+      "permanent": true
+    },
+    {
+      "source": "/gallery",
+      "destination": "/before-after",
+      "permanent": true
+    },
+    {
+      "source": "/gallery.html",
+      "destination": "/before-after",
+      "permanent": true
+    },
+    {
+      "source": "/invisalign-south-bopal",
+      "destination": "/clear-aligners",
+      "permanent": true
+    },
+    {
+      "source": "/invisalign-south-bopal.html",
+      "destination": "/clear-aligners",
+      "permanent": true
+    },
+    {
+      "source": "/pediatric-dentist-south-bopal",
+      "destination": "/pediatric",
+      "permanent": true
+    },
+    {
+      "source": "/pediatric-dentist-south-bopal.html",
+      "destination": "/pediatric",
+      "permanent": true
+    },
+    {
+      "source": "/root-canal-south-bopal",
+      "destination": "/root-canal",
+      "permanent": true
+    },
+    {
+      "source": "/root-canal-south-bopal.html",
+      "destination": "/root-canal",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/treatments",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/treatments",
+      "permanent": true
+    },
+    {
+      "source": "/smile-makeover-south-bopal",
+      "destination": "/smile-makeover",
+      "permanent": true
+    },
+    {
+      "source": "/smile-makeover-south-bopal.html",
+      "destination": "/smile-makeover",
+      "permanent": true
+    },
+    {
+      "source": "/teeth-whitening-south-bopal",
+      "destination": "/teeth-whitening",
+      "permanent": true
+    },
+    {
+      "source": "/teeth-whitening-south-bopal.html",
+      "destination": "/teeth-whitening",
+      "permanent": true
+    },
+    {
+      "source": "/tooth-extraction",
+      "destination": "/gentle-extractions",
+      "permanent": true
+    },
+    {
+      "source": "/tooth-extraction.html",
+      "destination": "/gentle-extractions",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}

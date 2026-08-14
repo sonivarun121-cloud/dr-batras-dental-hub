@@ -1,0 +1,14 @@
+# Vercel
+.vercel
+
+# Secrets — .env.local holds VERCEL_OIDC_TOKEN, must never be committed
+.env*
+
+# macOS
+.DS_Store
+
+# Working files — not part of the website
+_seo/
+scratch/
+scripts/
+task.md

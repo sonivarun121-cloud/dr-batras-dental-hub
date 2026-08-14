@@ -1,0 +1,31 @@
+# ---------------------------------------------------------------
+# Nothing here reaches Vercel. Vercel does not upload OR serve these.
+# ---------------------------------------------------------------
+
+# Working files, backups, audit reports, one-off scripts
+_seo
+_seo/
+scratch
+scratch/
+scripts
+scripts/
+
+# Documentation and tooling that is not part of the website
+*.md
+*.py
+*.bak
+task.md
+
+# Secrets — belt and braces. Vercel CLI already auto-ignores .env.local,
+# but this covers every variant regardless of deploy method.
+.env
+.env.*
+*.pem
+*.key
+
+# Netlify config (unused on Vercel)
+_redirects
+
+# OS / editor noise
+.DS_Store
+__pycache__
